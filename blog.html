@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Photos &amp; Vidéos | Sarapich PIN</title>
+<meta name="description" content="Photos et vidéos de Sarapich PIN — vie professionnelle, entrepreneuriat dans le vin et actualités.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Sarapich <span>PIN</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html#about">Profil</a>
+      <a href="index.html#expertise">Expertise</a>
+      <a href="index.html#ventures">Entreprises</a>
+      <a href="index.html#experience">Parcours</a>
+      <a href="index.html#credentials">Formation</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero hero-compact">
+    <div class="container hero-inner">
+      <p class="eyebrow">Blog</p>
+      <h1>Photos &amp; Vidéos</h1>
+      <p class="hero-lead">
+        Un aperçu de mon quotidien entre le Cambodge et la France : événements,
+        vignobles, rencontres et coulisses de mes projets.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="blog-filters" id="blogFilters">
+        <button class="filter-btn is-active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="image">Photos</button>
+        <button class="filter-btn" data-filter="video">Vidéos</button>
+      </div>
+
+      <div class="blog-grid" id="blogGrid">
+        <!-- Les publications sont générées automatiquement depuis js/blog-data.js -->
+      </div>
+
+      <p class="blog-empty" id="blogEmpty" hidden>
+        Aucune publication pour le moment. Ajoutez vos photos et vidéos dans
+        <code>js/blog-data.js</code>.
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Sarapich PIN — Consultant, Investment · Management · Marketing · Strategy</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fermer">&times;</button>
+  <div class="lightbox-content" id="lightboxContent"></div>
+</div>
+
+<script src="js/blog-data.js"></script>
+<script src="js/blog.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
