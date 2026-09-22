@@ -14,6 +14,37 @@
 */
 
 const BLOG_POSTS = [
+  {
+    type: "image",
+    src: "media/evenement-professionnel.jpg",
+    caption: "Rencontre professionnelle au Cambodge",
+    date: "2026-09-20"
+  },
+  {
+    type: "image",
+    src: "media/portrait-montagne.jpg",
+    caption: "Pause à la montagne, entre deux rendez-vous",
+    date: "2026-01-10"
+  },
+  {
+    type: "image",
+    src: "media/famille-montagne.jpg",
+    caption: "En famille, à la neige",
+    date: "2026-01-08"
+  },
+  {
+    type: "image",
+    src: "media/avec-mon-fils.jpg",
+    caption: "Moment complice en famille",
+    date: "2025-12-24"
+  },
+  {
+    type: "image",
+    src: "media/portrait.jpg",
+    caption: "Portrait",
+    date: "2025-12-01"
+  },
+
   // Exemple (à supprimer ou dupliquer) :
   // {
   //   type: "image",
