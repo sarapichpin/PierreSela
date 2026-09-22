@@ -74,6 +74,36 @@ const BLOG_POSTS = [
     caption: "Entre professionnels, le cognac se partage",
     date: "2026-02-10"
   },
+  {
+    type: "image",
+    src: "media/wine-paris-degustation.jpg",
+    caption: "Une belle bouteille, de bons amis",
+    date: "2026-02-09"
+  },
+  {
+    type: "image",
+    src: "media/wine-paris-bordeaux.jpg",
+    caption: "Sur le stand Vins de Bordeaux",
+    date: "2026-02-09"
+  },
+  {
+    type: "image",
+    src: "media/rencontre-hotel.jpg",
+    caption: "Avant l'entrée en scène",
+    date: "2026-06-20"
+  },
+  {
+    type: "image",
+    src: "media/delegation-conference.jpg",
+    caption: "En délégation pour les affaires du Royaume",
+    date: "2026-06-19"
+  },
+  {
+    type: "image",
+    src: "media/ceremonie-officielle.jpg",
+    caption: "Cérémonie officielle au Cambodge",
+    date: "2026-06-18"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
