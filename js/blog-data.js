@@ -18,115 +18,115 @@ const BLOG_POSTS = [
     type: "image",
     src: "media/evenement-professionnel.jpg",
     caption: "Rencontre professionnelle au Cambodge",
-    date: "2026-09-20"
+    date: "2025-11-14"
   },
   {
     type: "image",
     src: "media/portrait-montagne.jpg",
     caption: "Pause à la montagne, entre deux rendez-vous",
-    date: "2026-01-10"
+    date: "2025-01-18"
   },
   {
     type: "image",
     src: "media/famille-montagne.jpg",
     caption: "En famille, à la neige",
-    date: "2026-01-08"
+    date: "2024-12-26"
   },
   {
     type: "image",
     src: "media/avec-mon-fils.jpg",
     caption: "Moment complice en famille",
-    date: "2025-12-24"
+    date: "2024-12-26"
   },
   {
     type: "image",
     src: "media/portrait.jpg",
     caption: "Portrait",
-    date: "2025-12-01"
+    date: "2025-03-02"
   },
   {
     type: "image",
     src: "media/cave-a-vins-cambodge.jpg",
     caption: "Immersion chez nos partenaires cavistes",
-    date: "2026-08-15"
+    date: "2025-06-10"
   },
   {
     type: "image",
     src: "media/degustation-cambodge.jpg",
     caption: "Dégustation entre passionnés",
-    date: "2026-08-14"
+    date: "2025-06-11"
   },
   {
     type: "image",
     src: "media/rencontre-institutionnelle.jpg",
     caption: "Rencontre stratégique autour d'un projet commun",
-    date: "2026-07-01"
+    date: "2024-09-23"
   },
   {
     type: "image",
     src: "media/wine-paris-cognac.jpg",
     caption: "Escale cognac sur Wine Paris",
-    date: "2026-02-10"
+    date: "2025-02-11"
   },
   {
     type: "image",
     src: "media/wine-paris-abk6.jpg",
     caption: "Entre professionnels, le cognac se partage",
-    date: "2026-02-10"
+    date: "2025-02-11"
   },
   {
     type: "image",
     src: "media/wine-paris-degustation.jpg",
     caption: "Une belle bouteille, de bons amis",
-    date: "2026-02-09"
+    date: "2025-02-12"
   },
   {
     type: "image",
     src: "media/wine-paris-bordeaux.jpg",
     caption: "Sur le stand Vins de Bordeaux",
-    date: "2026-02-09"
+    date: "2025-02-12"
   },
   {
     type: "image",
     src: "media/rencontre-hotel.jpg",
     caption: "Avant l'entrée en scène",
-    date: "2026-06-20"
+    date: "2024-11-05"
   },
   {
     type: "image",
     src: "media/delegation-conference.jpg",
     caption: "En délégation pour les affaires du Royaume",
-    date: "2026-06-19"
+    date: "2024-11-06"
   },
   {
     type: "image",
     src: "media/ceremonie-officielle.jpg",
     caption: "Cérémonie officielle au Cambodge",
-    date: "2026-06-18"
+    date: "2024-11-06"
   },
   {
     type: "image",
     src: "media/ceremonie-officielle-2.jpg",
     caption: "Un temps fort de la vie diplomatique",
-    date: "2026-06-18"
+    date: "2024-11-06"
   },
   {
     type: "image",
     src: "media/diner-partenaires.jpg",
     caption: "Dîner de travail entre partenaires",
-    date: "2026-05-12"
+    date: "2025-08-22"
   },
   {
     type: "image",
     src: "media/chaine-rotisseurs-groupe.jpg",
     caption: "Une soirée sous le signe de la gastronomie",
-    date: "2026-04-05"
+    date: "2025-10-03"
   },
   {
     type: "image",
     src: "media/chaine-rotisseurs-complicite.jpg",
     caption: "Complicité gourmande",
-    date: "2026-04-05"
+    date: "2025-10-03"
   },
 
   // Exemple (à supprimer ou dupliquer) :
