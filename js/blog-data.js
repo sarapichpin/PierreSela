@@ -158,6 +158,36 @@ const BLOG_POSTS = [
     caption: "Sous le soleil du Cambodge",
     date: "2025-09-09"
   },
+  {
+    type: "image",
+    src: "media/cave-vieillissement.jpg",
+    caption: "Immersion dans les chais centenaires",
+    date: "2025-11-21"
+  },
+  {
+    type: "image",
+    src: "media/chai-allozo.jpg",
+    caption: "Visite d'un chai espagnol",
+    date: "2025-11-21"
+  },
+  {
+    type: "image",
+    src: "media/centro-espirituosas.jpg",
+    caption: "Une rencontre pleine d'enthousiasme",
+    date: "2025-11-22"
+  },
+  {
+    type: "image",
+    src: "media/brandy-casajuana.jpg",
+    caption: "Découverte d'un brandy d'exception",
+    date: "2025-11-22"
+  },
+  {
+    type: "image",
+    src: "media/rencontre-cave-a-vin.jpg",
+    caption: "Entre amateurs de bons vins",
+    date: "2025-04-17"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
