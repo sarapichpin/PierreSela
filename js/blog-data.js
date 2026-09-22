@@ -104,6 +104,30 @@ const BLOG_POSTS = [
     caption: "Cérémonie officielle au Cambodge",
     date: "2026-06-18"
   },
+  {
+    type: "image",
+    src: "media/ceremonie-officielle-2.jpg",
+    caption: "Un temps fort de la vie diplomatique",
+    date: "2026-06-18"
+  },
+  {
+    type: "image",
+    src: "media/diner-partenaires.jpg",
+    caption: "Dîner de travail entre partenaires",
+    date: "2026-05-12"
+  },
+  {
+    type: "image",
+    src: "media/chaine-rotisseurs-groupe.jpg",
+    caption: "Une soirée sous le signe de la gastronomie",
+    date: "2026-04-05"
+  },
+  {
+    type: "image",
+    src: "media/chaine-rotisseurs-complicite.jpg",
+    caption: "Complicité gourmande",
+    date: "2026-04-05"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
