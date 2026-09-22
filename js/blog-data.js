@@ -188,6 +188,36 @@ const BLOG_POSTS = [
     caption: "Entre amateurs de bons vins",
     date: "2025-04-17"
   },
+  {
+    type: "image",
+    src: "media/ceremonie-bouddhiste-groupe.jpg",
+    caption: "Cérémonie du Bun Pka pour l'éducation",
+    date: "2024-12-11"
+  },
+  {
+    type: "image",
+    src: "media/ceremonie-bouddhiste-famille.jpg",
+    caption: "Une transmission entre générations",
+    date: "2024-12-11"
+  },
+  {
+    type: "image",
+    src: "media/ceremonie-bouddhiste-equipe.jpg",
+    caption: "L'équipe réunie pour la bonne cause",
+    date: "2024-12-11"
+  },
+  {
+    type: "image",
+    src: "media/salon-vins-espagne.jpg",
+    caption: "Sur le salon FENAVIN, en Espagne",
+    date: "2025-05-06"
+  },
+  {
+    type: "image",
+    src: "media/visite-pse.jpg",
+    caption: "Visite chaleureuse à PSE",
+    date: "2024-03-15"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
