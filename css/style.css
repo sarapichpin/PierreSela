@@ -129,6 +129,15 @@ a { color: inherit; }
   margin-bottom: 20px;
 }
 
+.hero-tagline {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  margin-bottom: 24px;
+}
+
 .hero-lead {
   max-width: 640px;
   font-size: 1.1rem;
@@ -365,6 +374,16 @@ a { color: inherit; }
   color: var(--color-muted);
   font-style: italic;
   margin-bottom: 8px;
+}
+
+.timeline-list {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 0.94rem;
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
 .timeline-content p:last-child {
