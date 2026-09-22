@@ -313,20 +313,26 @@ a { color: inherit; }
 
 .venture-head {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  margin-bottom: 10px;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
 }
 
-.venture-head h3 { font-size: 1.15rem; margin: 0; }
+.venture-head h3 { font-size: 1.2rem; margin: 0; }
+
+.venture-role {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin: 0;
+}
 
 .venture-tag {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--color-muted);
-  white-space: nowrap;
+  margin-top: 2px;
 }
 
 .venture-card p { font-size: 0.92rem; color: var(--color-muted); margin: 0; }
