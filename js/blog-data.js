@@ -128,6 +128,36 @@ const BLOG_POSTS = [
     caption: "Complicité gourmande",
     date: "2025-10-03"
   },
+  {
+    type: "image",
+    src: "media/soiree-amicale.jpg",
+    caption: "Soirée entre amis, sous la tente",
+    date: "2025-07-19"
+  },
+  {
+    type: "image",
+    src: "media/rencontre-asie.jpg",
+    caption: "Entre deux sessions de travail",
+    date: "2024-05-14"
+  },
+  {
+    type: "image",
+    src: "media/cave-a-vins-partenaire.jpg",
+    caption: "Une pause conviviale à la cave",
+    date: "2025-09-08"
+  },
+  {
+    type: "image",
+    src: "media/rencontre-partenaire.jpg",
+    caption: "Rencontre chaleureuse autour du vin",
+    date: "2025-09-08"
+  },
+  {
+    type: "image",
+    src: "media/rendez-vous-affaires.jpg",
+    caption: "Sous le soleil du Cambodge",
+    date: "2025-09-09"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
