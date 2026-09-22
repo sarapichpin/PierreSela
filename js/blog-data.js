@@ -44,6 +44,36 @@ const BLOG_POSTS = [
     caption: "Portrait",
     date: "2025-12-01"
   },
+  {
+    type: "image",
+    src: "media/cave-a-vins-cambodge.jpg",
+    caption: "Immersion chez nos partenaires cavistes",
+    date: "2026-08-15"
+  },
+  {
+    type: "image",
+    src: "media/degustation-cambodge.jpg",
+    caption: "Dégustation entre passionnés",
+    date: "2026-08-14"
+  },
+  {
+    type: "image",
+    src: "media/rencontre-institutionnelle.jpg",
+    caption: "Rencontre stratégique autour d'un projet commun",
+    date: "2026-07-01"
+  },
+  {
+    type: "image",
+    src: "media/wine-paris-cognac.jpg",
+    caption: "Escale cognac sur Wine Paris",
+    date: "2026-02-10"
+  },
+  {
+    type: "image",
+    src: "media/wine-paris-abk6.jpg",
+    caption: "Entre professionnels, le cognac se partage",
+    date: "2026-02-10"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
