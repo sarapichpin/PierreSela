@@ -1,4 +1,6 @@
 (function () {
+  const lang = document.documentElement.lang === "en" ? "en" : "fr";
+
   const grid = document.getElementById("blogGrid");
   const emptyMsg = document.getElementById("blogEmpty");
   const filters = document.getElementById("blogFilters");
@@ -12,18 +14,24 @@
 
   let activeFilter = "all";
 
+  function caption(post) {
+    if (lang === "en") return post.captionEn || post.caption || "";
+    return post.caption || "";
+  }
+
   function formatDate(dateStr) {
     if (!dateStr) return "";
     const d = new Date(dateStr);
     if (isNaN(d)) return dateStr;
-    return d.toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+    const locale = lang === "en" ? "en-GB" : "fr-FR";
+    return d.toLocaleDateString(locale, { day: "numeric", month: "long", year: "numeric" });
   }
 
   function mediaMarkup(post, forLightbox) {
     if (post.type === "video") {
       return `<video ${forLightbox ? "controls autoplay" : "controls"} preload="metadata" src="${post.src}"></video>`;
     }
-    return `<img src="${post.src}" alt="${post.caption || ""}" loading="lazy">`;
+    return `<img src="${post.src}" alt="${caption(post)}" loading="lazy">`;
   }
 
   function render() {
@@ -35,13 +43,14 @@
     visible.forEach((post, index) => {
       const card = document.createElement("figure");
       card.className = "blog-card";
+      const videoLabel = lang === "en" ? "Video" : "Vidéo";
       card.innerHTML = `
         <div class="blog-media" data-index="${index}">
           ${mediaMarkup(post, false)}
-          <span class="blog-media-type">${post.type === "video" ? "Vidéo" : "Photo"}</span>
+          <span class="blog-media-type">${post.type === "video" ? videoLabel : "Photo"}</span>
         </div>
         <figcaption>
-          <p class="blog-caption">${post.caption || ""}</p>
+          <p class="blog-caption">${caption(post)}</p>
           <time class="blog-date">${formatDate(post.date)}</time>
         </figcaption>
       `;

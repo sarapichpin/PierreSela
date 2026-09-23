@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog — Photos &amp; Vidéos | Sarapich PIN</title>
-<meta name="description" content="Photos et vidéos de Sarapich PIN — vie professionnelle, entrepreneuriat dans le vin et actualités.">
+<title>Blog — Photos &amp; Videos | Sarapich PIN</title>
+<meta name="description" content="Photos and videos of Sarapich PIN — professional life, wine entrepreneurship and news.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 
@@ -16,20 +16,20 @@
   <div class="container header-inner">
     <a href="index.html" class="logo">Sarapich <span>PIN</span></a>
     <nav class="nav" id="nav">
-      <a href="index.html#about">Profil</a>
+      <a href="index.html#about">Profile</a>
       <a href="index.html#expertise">Expertise</a>
-      <a href="index.html#ventures">Entreprises</a>
-      <a href="index.html#experience">Parcours</a>
-      <a href="index.html#credentials">Formation</a>
+      <a href="index.html#ventures">Ventures</a>
+      <a href="index.html#experience">Career</a>
+      <a href="index.html#credentials">Education</a>
       <a href="blog.html" class="active">Blog</a>
       <a href="index.html#contact" class="nav-cta">Contact</a>
     </nav>
     <div class="header-actions">
       <div class="lang-switch">
-        <a href="blog.html" class="is-active">FR</a>
-        <a href="en/blog.html">EN</a>
+        <a href="../blog.html">FR</a>
+        <a href="blog.html" class="is-active">EN</a>
       </div>
-      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -41,10 +41,10 @@
   <section class="hero hero-compact">
     <div class="container hero-inner">
       <p class="eyebrow">Blog</p>
-      <h1>Photos &amp; Vidéos</h1>
+      <h1>Photos &amp; Videos</h1>
       <p class="hero-lead">
-        Un aperçu de mon quotidien entre le Cambodge et la France : événements,
-        vignobles, rencontres et coulisses de mes projets.
+        A glimpse into my everyday life between Cambodia and France: events,
+        vineyards, encounters and behind-the-scenes of my projects.
       </p>
     </div>
   </section>
@@ -52,23 +52,23 @@
   <section class="section">
     <div class="container">
       <div class="page-switcher">
-        <a href="blog.html" class="switcher-btn is-active">Photos &amp; Vidéos</a>
+        <a href="blog.html" class="switcher-btn is-active">Photos &amp; Videos</a>
         <a href="motivation-relation.html" class="switcher-btn">Motivation &amp; Relation</a>
         <a href="wine-knowledge.html" class="switcher-btn">Wine Knowledge</a>
       </div>
 
       <div class="blog-filters" id="blogFilters">
-        <button class="filter-btn is-active" data-filter="all">Tout</button>
+        <button class="filter-btn is-active" data-filter="all">All</button>
         <button class="filter-btn" data-filter="image">Photos</button>
-        <button class="filter-btn" data-filter="video">Vidéos</button>
+        <button class="filter-btn" data-filter="video">Videos</button>
       </div>
 
       <div class="blog-grid" id="blogGrid">
-        <!-- Les publications sont générées automatiquement depuis js/blog-data.js -->
+        <!-- Posts are generated automatically from ../js/blog-data.js -->
       </div>
 
       <p class="blog-empty" id="blogEmpty" hidden>
-        Aucune publication pour le moment. Ajoutez vos photos et vidéos dans
+        No posts yet. Add your photos and videos in
         <code>js/blog-data.js</code>.
       </p>
     </div>
@@ -80,19 +80,19 @@
   <div class="container footer-inner">
     <p>&copy; <span id="year"></span> Sarapich PIN — Consultant, Investment · Management · Marketing · Strategy</p>
     <div class="lang-switch">
-      <a href="blog.html" class="is-active">FR</a>
-      <a href="en/blog.html">EN</a>
+      <a href="../blog.html">FR</a>
+      <a href="blog.html" class="is-active">EN</a>
     </div>
   </div>
 </footer>
 
 <div class="lightbox" id="lightbox" hidden>
-  <button class="lightbox-close" id="lightboxClose" aria-label="Fermer">&times;</button>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
   <div class="lightbox-content" id="lightboxContent"></div>
 </div>
 
-<script src="js/blog-data.js"></script>
-<script src="js/blog.js"></script>
-<script src="js/script.js"></script>
+<script src="../js/blog-data.js"></script>
+<script src="../js/blog.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>

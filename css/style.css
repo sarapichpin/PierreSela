@@ -92,6 +92,46 @@ a { color: inherit; }
   color: var(--color-accent) !important;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.lang-switch a {
+  text-decoration: none;
+  color: var(--color-muted);
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.lang-switch a:hover { color: var(--color-accent); }
+
+.lang-switch a.is-active {
+  color: var(--color-accent);
+  background: var(--color-bg-alt);
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.footer-inner .lang-switch a { color: #a89f97; }
+.footer-inner .lang-switch a.is-active { color: #fff; background: rgba(255, 255, 255, 0.08); }
+
 .nav-toggle {
   display: none;
   flex-direction: column;
