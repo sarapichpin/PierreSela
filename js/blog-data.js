@@ -253,6 +253,41 @@ const BLOG_POSTS = [
     captionEn: "A warm visit to PSE",
     date: "2024-03-15"
   },
+  {
+    type: "image",
+    src: "/media/gala-pse-arrivee.jpg",
+    caption: "Gala PSE : une arrivée en toute élégance",
+    captionEn: "PSE Gala: arriving in style",
+    date: "2026-11-08"
+  },
+  {
+    type: "image",
+    src: "/media/gala-pse-complicite.jpg",
+    caption: "Derniers préparatifs avant la soirée",
+    captionEn: "Last-minute touches before the evening",
+    date: "2026-11-08"
+  },
+  {
+    type: "image",
+    src: "/media/gala-pse-entree.jpg",
+    caption: "En route vers la salle de gala",
+    captionEn: "Heading into the gala",
+    date: "2026-11-08"
+  },
+  {
+    type: "image",
+    src: "/media/gala-pse-equipe.jpg",
+    caption: "Entourés de l'équipe, prêts pour la soirée",
+    captionEn: "Surrounded by the team, ready for the evening",
+    date: "2026-11-08"
+  },
+  {
+    type: "image",
+    src: "/media/gala-pse-table.jpg",
+    caption: "Le vin que je sponsorise, servi à toute la salle du gala PSE",
+    captionEn: "The wine I sponsored, served to the whole PSE gala dinner",
+    date: "2026-11-08"
+  },
 
   // Exemple (à supprimer ou dupliquer) :
   // {
